@@ -5,7 +5,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="c:\Users\Asus\Downloads\IMG_6681.png" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="./assets/IMG_6681.png" width="125" height="125" />
 
     <div class="wrapper">
       <HelloWorld msg="" />
@@ -32,7 +32,7 @@ header {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
-    background-color: rgb(28, 95, 132);
+    background-color: rgb(104, 180, 222);
   }
 
   .logo {
